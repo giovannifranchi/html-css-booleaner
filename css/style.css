@@ -19,8 +19,11 @@ header{
 }
 
 main{
-    padding-top: 20px;
     padding-left: 50px;
+}
+
+section{
+    margin-top: 20px;
 }
 
 #article-title{
@@ -47,4 +50,8 @@ main{
     width: calc(50% - 5px);
     height: 600px;
     object-fit: cover;
+}
+
+p{
+    font-size: 20px;
 }
