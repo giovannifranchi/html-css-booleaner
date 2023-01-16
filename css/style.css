@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 180px;
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-position: top; /* Posizionamento pattern immagine simile ad esempio*/
+    padding-top: 80px; /* Spaziatura div contenente logo*/
+    padding-left: 20px;
+}
+
+#logo{
+    width: 200px; /*ridimensionamento logo*/
+    height: 100px;
+}
