@@ -24,6 +24,7 @@ main{
 
 section{
     margin-top: 30px;
+    font-size: 20px;
 }
 
 #article-title{
@@ -52,6 +53,20 @@ section{
     object-fit: cover;
 }
 
-p{
-    font-size: 20px;
+table{
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#table-row-head{
+    background-color: #20a9e5;
+    color: white;
+}
+
+.row-odd{
+    background-color: #b1e5f2;
+}
+
+.initial-cells{
+    width: 300px;
 }
