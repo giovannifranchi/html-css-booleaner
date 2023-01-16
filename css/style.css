@@ -17,3 +17,34 @@ header{
     width: 200px; /*ridimensionamento logo*/
     height: 100px;
 }
+
+main{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#article-title{
+    width: 80%;
+    font-size: 60px;
+}
+
+#author{
+    text-decoration: none;
+    color: #73d1f9;
+}
+
+.title-info{
+    font-weight: 200;
+    color: #808080;
+}
+
+#main-images-container{
+    width: 90%;
+    margin-top: 20px;
+}
+
+.main-images{
+    width: calc(50% - 5px);
+    height: 600px;
+    object-fit: cover;
+}
