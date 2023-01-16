@@ -10,7 +10,7 @@ header{
     background-image: url(../img/pattern.png);
     background-position: top; /* Posizionamento pattern immagine simile ad esempio*/
     padding-top: 80px; /* Spaziatura div contenente logo*/
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 #logo{
@@ -53,6 +53,10 @@ section{
     object-fit: cover;
 }
 
+ul{
+    margin-left: 20px;
+}
+
 table{
     border-collapse: collapse;
     text-align: left;
@@ -69,4 +73,36 @@ table{
 
 .initial-cells{
     width: 300px;
+}
+
+footer{
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+
+#titolo-footer{
+    color: #7d7d7d;
+}
+
+.ad{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#first-ad-image{
+    background-image: url(../img/monitor.jpg);
+}
+
+#second-ad-image{
+    background-image: url(../img/graph.jpg);
 }
